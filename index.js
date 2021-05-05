@@ -4,6 +4,8 @@
 */
 
 const entryForm = document.getElementById('entryForm');
+const entriesSection = document.getElementById('entries');
+const entryTextbox = document.getElementByClass('entry-textbox');
 
 /*
  - Add an event listener to the entryForm variable that prevents the page from
