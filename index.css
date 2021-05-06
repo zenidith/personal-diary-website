@@ -1,8 +1,3 @@
-/* 
-    From the body tag, move the content of our page away from the window edge
-    Give the body tag a font-family of ['Gill Sans', 'Gill Sans MT']
- */
-
 body {
     margin: 5%;
     font-family: 'Gill Sans', 'Gill Sans MT';
