@@ -3,6 +3,11 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT';
     display: grid;
     justify-content: center;
+    background-image: url('sun.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+
 }
 
 .title {
