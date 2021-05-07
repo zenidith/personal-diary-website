@@ -23,11 +23,15 @@ function addEntryToDom(event) {
   displayEntryButton.innerText = count;
   entriesNav.appendChild(displayEntryButton);
 
-  displayEntryButton.addEventListener('click', function() {
-    entryDiv.style.display = 'block';
-})
-
-  count++
+    displayEntryButton.addEventListener('click', function() {
+        const allEntries = document.querySelectorAll('.single-entry');
+        for (let index = 0; index < allEntries.length; index++) {
+            allEntries[index].style.display = 'none';
+        }
+        entryDiv.style.display = 'block';        
+    })
+    
+    count++
 }
 
 entryForm.addEventListener('submit', addEntryToDom);
